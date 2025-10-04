@@ -348,7 +348,7 @@ body.projects-page::before {
 }
 
 .contact-info span {
-    font-size: 1rem;
+    font-size: 0.875rem;
     color: #13292A;
     font-weight: 600;
 }
