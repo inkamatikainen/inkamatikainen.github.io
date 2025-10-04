@@ -1,0 +1,37 @@
+{
+  "name": "inka-blog",
+  "version": "1.0.0",
+  "description": "Personal blog and portfolio website showcasing projects and development journey",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --open=/index.html",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "blog",
+    "personal-website",
+    "web-development",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Inka Matikainen",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/inka-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/inka-blog/issues"
+  },
+  "homepage": "https://yourusername.github.io/inka-blog",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
