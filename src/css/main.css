@@ -179,7 +179,7 @@ p {
 
 
 body.home-page::before {
-    background: url('../images/background_home.jpeg') left top / contain no-repeat;
+    background: url('../images/background_home.jpeg') center center / cover no-repeat;
 }
 
 body.professional-page::before {
