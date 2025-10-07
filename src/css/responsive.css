@@ -115,12 +115,21 @@
         font-size: 1.75rem;
     }
 
-    .intro-text-box {
-        padding: 0.75rem;
+    p,
+    li,
+    span,
+    a,
+    .intro-text-box p,
+    .project-detail-box p,
+    .experience-item p,
+    .qualifications-item p,
+    .skills-item p {
+        font-size: 0.85rem;
+        line-height: 1.4;
     }
 
-    .intro-text-box p {
-        font-size: 0.95rem;
+    .intro-text-box {
+        padding: 0.75rem;
     }
 
     .profile-img {
@@ -167,6 +176,7 @@
         padding: 0.8rem 0;
     }
 }
+
 
 @media (min-width: 1200px) {
     .hero-title {
