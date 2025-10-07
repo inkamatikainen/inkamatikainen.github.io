@@ -369,3 +369,13 @@ body.projects-page::before {
 .text-center { text-align: center; }
 .text-left { text-align: left; }
 .text-right { text-align: right; }
+
+.contact-info a {
+    color: inherit;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
