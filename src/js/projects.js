@@ -9,17 +9,20 @@ document.addEventListener('DOMContentLoaded', function() {
     projectButtons.forEach(button => {
         button.addEventListener('click', function() {
             const projectId = this.getAttribute('data-project');
-            const selectedDetail = document.getElementById(`project${projectId}-detail`);
+            // IDs are like "sap-detail" and "efmd-detail"
+            const selectedDetail = document.getElementById(`${projectId}-detail`);
             
+            // Toggle visibility: if already visible, hide it; otherwise show only this one
+            const isCurrentlyVisible = selectedDetail && selectedDetail.style.display === 'block';
+
             projectDetails.forEach(detail => {
                 detail.style.display = 'none';
             });
-            
             projectButtons.forEach(btn => btn.classList.remove('active'));
-            
-            this.classList.add('active');
-            if (selectedDetail) {
+
+            if (!isCurrentlyVisible && selectedDetail) {
                 selectedDetail.style.display = 'block';
+                this.classList.add('active');
             }
         });
     });
