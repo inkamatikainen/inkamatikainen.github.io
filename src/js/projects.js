@@ -9,10 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     projectButtons.forEach(button => {
         button.addEventListener('click', function() {
             const projectId = this.getAttribute('data-project');
-            // IDs are like "sap-detail" and "efmd-detail"
             const selectedDetail = document.getElementById(`${projectId}-detail`);
-            
-            // Toggle visibility: if already visible, hide it; otherwise show only this one
             const isCurrentlyVisible = selectedDetail && selectedDetail.style.display === 'block';
 
             projectDetails.forEach(detail => {
