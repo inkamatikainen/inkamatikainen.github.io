@@ -129,7 +129,7 @@
     }
 
     .intro-text-box {
-        padding: 0.75rem;
+        padding: 1rem;
     }
 
     .profile-img {
@@ -176,7 +176,6 @@
         padding: 0.8rem 0;
     }
 }
-
 
 @media (min-width: 1200px) {
     .hero-title {
