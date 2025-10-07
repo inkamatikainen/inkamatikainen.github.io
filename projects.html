@@ -13,56 +13,63 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body class="projects-page">
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="index.html">Inka Matikainen</a>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">Inka Matikainen</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="professional.html" class="nav-link">PROFESSIONAL BACKGROUND</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link active">PROJECTS</a>
+                    </li>
+                </ul>
+                <button class="hamburger" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="professional.html" class="nav-link">PROFESSIONAL BACKGROUND</a>
-                </li>
-                <li class="nav-item">
-                    <a href="projects.html" class="nav-link active">PROJECTS</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
+    <main>
         <section class="projects-section">
-        <div class="container">
-            <h1 class="page-title">Projects</h1>
-            <div class="project-buttons">
-                <button class="project-btn" data-project="sap">SAP Implementation</button>
-                <button class="project-btn" data-project="efmd">EFMD Accreditation</button>
-            </div>
+            <div class="container">
+                <h1 class="page-title">Projects</h1>
 
-            <div class="project-details">
-                <div class="project-detail-box" id="sap-detail">
-                    <p>In the advanced SAP course, I had the opportunity to independently implement an enterprise resource planning system for the target company and test its functionality in the purchasing, invoicing, and sales processes.</p>
-                </div>
-                <div class="project-detail-box" id="efmd-detail">
-                    <p>I participated in the accreditation project of the INTBBA degree program as a team leader, responsible for preparing a student report to assess the quality of the degree, and represented the students on a panel where international evaluators reviewed the program’s applicability and areas for improvement.</p>
-                </div>
+                <nav class="project-buttons" aria-label="Project selection">
+                    <button class="project-btn" data-project="sap">SAP Implementation</button>
+                    <button class="project-btn" data-project="efmd">EFMD Accreditation</button>
+                </nav>
+
+                <section class="project-details">
+                    <article class="project-detail-box" id="sap-detail">
+                        <p>In the advanced SAP course, I had the opportunity to independently implement an enterprise resource planning system for the target company and test its functionality in the purchasing, invoicing, and sales processes.</p>
+                    </article>
+
+                    <article class="project-detail-box" id="efmd-detail">
+                        <p>I participated in the accreditation project of the INTBBA degree program as a team leader, responsible for preparing a student report to assess the quality of the degree, and represented the students on a panel where international evaluators reviewed the program’s applicability and areas for improvement.</p>
+                    </article>
+                </section>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
-            <div class="contact-info">
-                <span class="phone">+ 358 50 4442520</span>
-                <span class="email">inka.matikainen@outlook.com</span>
-            </div>
+            <address class="contact-info">
+                <span class="phone"><a href="tel:+358504442520">+358 50 4442520</a></span>
+                <span class="email"><a href="mailto:inka.matikainen@outlook.com">inka.matikainen@outlook.com</a></span>
+            </address>
         </div>
     </footer>
 

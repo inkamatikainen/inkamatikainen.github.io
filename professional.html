@@ -6,104 +6,106 @@
     <title>Professional Background - Personal Portfolio</title>
     <meta name="description" content="Professional background, experience, qualifications, and skills.">
     
-    <!-- CSS Files -->
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="src/css/responsive.css">
     
-    <!-- Fonts: Montserrat and Open Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body class="professional-page">
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="index.html">Inka Matikainen</a>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="professional.html" class="nav-link active">PROFESSIONAL BACKGROUND</a>
-                </li>
-                <li class="nav-item">
-                    <a href="projects.html" class="nav-link">PROJECTS</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Professional Background Section -->
-    <section class="professional-section">
-        <div class="container">
-            <h1 class="page-title">Professional Background</h1>
-
-              <!-- Qualifications Section -->
-            <div class="section">
-                <h2 class="section-heading">Qualifications</h2>
-                <div class="qualifications-item">
-                    <p>Final-year International Business student with hands-on experience in HR, sales, and taking initiative. Experienced in operational management, problem-solving, and data-driven decision-making. Committed to creating engaging experiences for employees and customers. Fluent in Finnish and English, adaptable, and results-driven, thriving in environments that value continuous learning and where I can make a tangible impact.</p>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">Inka Matikainen</a>
                 </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="professional.html" class="nav-link active">PROFESSIONAL BACKGROUND</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link">PROJECTS</a>
+                    </li>
+                </ul>
+                <button class="hamburger" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
             </div>
-            
-            <!-- Experience Section -->
-            <div class="section">
-                <h2 class="section-heading">Experience</h2>
-                <div class="experience-item">
-                    <div class="experience-content">
-                        <p>Shift Leader, Shift Manager | La Torrefazione</p>
-                    </div>
-                    <div class="experience-year">
-                        <span>January 2022 -</span>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="experience-content">
-                        <p>HR Trainee | Global Blue </p>
-                    </div>
-                    <div class="experience-year">
-                        <span>October 2024 - April 2025</span>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="experience-content">
-                        <p>Assistant Shift Manager, Trainer | McDonald´s</p>
-                    </div>
-                    <div class="experience-year">
-                        <span>April 2019 - November 2021</span>
-                    </div>
-                </div>
-            </div>
+        </nav>
+    </header>
 
-            <!-- Skills Section -->
-            <div class="section">
-                <h2 class="section-heading">Skills</h2>
-                <div class="skills-item">
-                    <p>Skilled at leveraging Excel, SAP, Word, and WorkDay to analyse data, produce actionable reports, and create clear visualisations. Knowledge in managing HR processes across the employee lifecycle while supporting sales operations and ensuring stakeholder satisfaction. Proven ability to drive process improvements, streamline administrative operations, and apply contract law to personnel-related matters.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <main>
+        <section class="professional-section">
+            <div class="container">
+                <h1 class="page-title">Professional Background</h1>
 
-    <!-- Footer -->
+                <section class="section">
+                    <h2 class="section-heading">Qualifications</h2>
+                    <article class="qualifications-item">
+                        <p>Final-year International Business student with hands-on experience in HR, sales, and taking initiative. Experienced in operational management, problem-solving, and data-driven decision-making. Committed to creating engaging experiences for employees and customers. Fluent in Finnish and English, adaptable, and results-driven, thriving in environments that value continuous learning and where I can make a tangible impact.</p>
+                    </article>
+                </section>
+                
+                <section class="section">
+                    <h2 class="section-heading">Experience</h2>
+
+                    <article class="experience-item">
+                        <div class="experience-content">
+                            <p>Shift Leader, Shift Manager | La Torrefazione</p>
+                        </div>
+                        <div class="experience-year">
+                            <time datetime="2022-01">January 2022 -</time>
+                        </div>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-content">
+                            <p>HR Trainee | Global Blue</p>
+                        </div>
+                        <div class="experience-year">
+                            <time datetime="2024-10">October 2024</time> - 
+                            <time datetime="2025-04">April 2025</time>
+                        </div>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-content">
+                            <p>Assistant Shift Manager, Trainer | McDonald’s</p>
+                        </div>
+                        <div class="experience-year">
+                            <time datetime="2019-04">April 2019</time> - 
+                            <time datetime="2021-11">November 2021</time>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-heading">Skills</h2>
+                    <article class="skills-item">
+                        <p>Skilled at leveraging Excel, SAP, Word, and WorkDay to analyse data, produce actionable reports, and create clear visualisations. Knowledge in managing HR processes across the employee lifecycle while supporting sales operations and ensuring stakeholder satisfaction. Proven ability to drive process improvements, streamline administrative operations, and apply contract law to personnel-related matters.</p>
+                    </article>
+                </section>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
         <div class="container">
-            <div class="contact-info">
-                <span class="phone">+ 358 50 4442520</span>
-                <span class="email">inka.matikainen@outlook.com</span>
-            </div>
+            <address class="contact-info">
+                <span class="phone"><a href="tel:+358504442520">+358 50 4442520</a></span>
+                <span class="email"><a href="mailto:inka.matikainen@outlook.com">inka.matikainen@outlook.com</a></span>
+            </address>
         </div>
     </footer>
-
-    <!-- JavaScript -->
+    
     <script src="src/js/main.js"></script>
 </body>
 </html>
