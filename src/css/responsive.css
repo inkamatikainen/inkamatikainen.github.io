@@ -116,11 +116,11 @@
     }
 
     .intro-text-box {
-        padding: 1rem;
+        padding: 0,5rem;
     }
 
     .intro-text-box p {
-        font-size: 1rem;
+        font-size: 0,5rem;
     }
 
     .profile-img {
@@ -144,7 +144,7 @@
 
     .project-btn {
         padding: 0.7rem 1.2rem;
-        font-size: 0.9rem;
+        font-size: 0.5rem;
     }
 
     .project-detail-box {
