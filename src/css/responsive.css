@@ -236,7 +236,7 @@
     }
 }
 
-@media (prefers-contrast: high) {
+@media (prefers-contrast: no-preference) {
     .nav-link:hover,
     .nav-link.active {
         color: #000;
