@@ -170,7 +170,7 @@
 
     .qualifications-item + .section,
     .experience-item:last-of-type + .section {
-        margin-top: -2rem;
+        margin-top: -3rem;
     }
 
     .contact-info span {
