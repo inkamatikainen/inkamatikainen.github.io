@@ -168,8 +168,16 @@
         padding: 40px 0;
     }
 
-    .section-heading {
-        margin-bottom: 0.5rem;
+    .section {
+        margin-bottom: 1.5rem;
+    }
+    
+    .qualifications-item {
+        margin-bottom: 1rem;
+    }
+    
+    .experience-item:last-of-type {
+        margin-bottom: 1rem;
     }
 
     .contact-info span {
