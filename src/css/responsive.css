@@ -168,6 +168,11 @@
         padding: 40px 0;
     }
 
+    .qualifications-item + .section,
+    .experience-item:last-of-type + .section {
+        margin-top: -2rem;
+    }
+
     .contact-info span {
         font-size: 0.8rem;
     }
